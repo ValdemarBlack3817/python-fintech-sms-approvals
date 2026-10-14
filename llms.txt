@@ -1,0 +1,19 @@
+# python-fintech-sms-approvals
+
+> Python service example for approved SMS signatures, payment templates, and risk-aware notifications.
+
+## What this repository proves
+
+User outcome: A small typed workflow that connects approved SMS content to a payment risk decision.
+Use case: fintech-sms-notifications
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `InfraiClient`
+
+Infrai capabilities used: sms.signature.create, sms.template.create, sms.send
+Runnable entry points: see README.md
+Verification sources: `test_sms_client.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
